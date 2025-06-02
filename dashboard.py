@@ -2,9 +2,9 @@ import streamlit as st
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
-
+import os
 # --- CONFIG ---
-API_KEY = "ead8443531e5162ba7160df4579108bb"
+API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://gnews.io/api/v4/search"
 
 st.title("Redazione Palestina")
