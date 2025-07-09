@@ -1,5 +1,5 @@
 Documento di prova
 
-Contiene frasi a caso
+Contiene frasi
 
 Non significa nulla
